@@ -1,0 +1,17 @@
+<!--pages/star/star.wxml-->
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-blue">标准数独（九宫）</text>
+  </view>
+</view>
+<view class="bg-img bg-mask padding-tb-xl" style="background-image: url('/pages/images/1.jpeg');height: 500rpx;">
+</view>
+<view class="padding-xl text-black">
+    <view class="padding-xs text-xl">
+      数独盘面是个九宫，每一宫又分为九个小格。在这八十一格中给出一定的已知数字和解题条件，利用逻辑和推理，在其他的空格上填入1-9的数字。使1-9每个数字在每一行、每一列和每一宫中都只出现一次，所以又称“九宫格”。
+    </view>
+  </view>  
+
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-brown lg" bindtap="start" style="margin-left: 100px;margin-right: 100px;margin-top: 20px;">开始游戏</button>
+</view>
